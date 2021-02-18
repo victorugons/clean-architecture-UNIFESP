@@ -11,7 +11,7 @@ module.exports = {
   // An array of glob patterns indicating a set of files for which coverage information should be collected
   collectCoverageFrom: [
     '<rootDir>/src/**/*.ts',
-    '!**/test/**',
+    '!**/tests/**',
     '!**/config/**'
   ],
   // The test environment that will be used for testing
